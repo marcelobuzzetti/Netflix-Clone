@@ -11,7 +11,7 @@
 /*elementos base*/
 body{
   background-color: var(--preta);
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Arial', Times, serif;
   color: white;
 }
 
@@ -43,7 +43,7 @@ header nav a:hover{
 .filme-principal{
     font-size: 16px;
     /*Coloca uma camada transparente na frente da imagem linear-gradiente*/
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/capa-house.jpg');
+    background: linear-gradient(rgba(15, 10, 10, 0.5), rgba(0,0,0,.50)100%), url('/img/capa-house.jpg');
     height: 400px;
     background-size: cover;
     display: flex;
@@ -55,6 +55,7 @@ header nav a:hover{
 .filme-principal .descricao{
     margin-top: 10px;
     margin-bottom: 40px;
+    text-align: justify;
 }
 
 .titulo{
@@ -96,4 +97,8 @@ header nav a:hover{
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carrosel-filmes{
+    margin-top: 5px;
 }
